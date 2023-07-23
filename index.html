@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind Gamer zone assignment</title>
+    <!-- google fonts link cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy css tailwind cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome icon cdn link -->
+    <script
+      src="https://kit.fontawesome.com/f07c246917.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- tailwind customize style -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- style start -->
+<style>
+    body{
+        font-family: 'Work Sans', sans-serif;
+    }
+</style>
+  </head>
+  <body class="max-w-[100%]: lg:max-w-[100%] bg-white">
+    <!-- header start -->
+    <header class="max-w-[100%] lg:max-w-[90%] mx-auto bg-slate-200 p-11">
+      <div class="flex flex-col lg:flex-row justify-center lg:justify-between ">
+        <div class="flex justify-center items-center gap-5 w-[100%] lg:w-[50%] lg:gap-8">
+          <img class="w-28 h-10" src="images/Frame.png" alt="" />
+          <h1 class="text-center text-4xl font-bold"><span class="text-rose-500">G</span>aMeR ZoNe</h1>
+        </div>
+        <nav class="w-[100%] lg:w-[50%]">
+          <ul class="flex flex-col lg:flex-row justify-center gap-3 lg:justify-end lg:gap-8 ">
+            <li class="text-center"><a class="font-semibold text-center text-2xl lg:text-4xl" href="">About Us</a></li>
+            <li class="text-center"><a class="font-semibold text-center text-2xl lg:text-4xl" href="">Developers</a></li>
+            <li class="text-center mt-1">
+              <a class="font-semibold text-center text-2xl lg:text-4xl bg-slate-300 p-3 rounded-lg" href=""
+                >Follow Us On <span><i class="fa-brands fa-youtube text-red-600"></i></span>
+                <span><i class="fa-brands fa-tiktok text-black"></i></span
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main>
+        <section class="box-border px-14 flex items-center w-[90%] h-screen mx-auto mt-16">
+            <div class="w-[50%] h-[90vh] flex justify-center items-center">
+                <div>
+                    <h3 class="text-4xl uppercase font-semibold">Play Like The</h3>
+                <h1 class="text-7xl text-pink-500 font-bold">G.O.A.T.</h1>
+                <ul>
+                    <li class="text-3xl font-semibold lowercase text-gray-800"><span class="text-red-500"><i class="fa-regular fa-circle-play me-4"></i></span>1-Click instant play</li>
+                    <li class="text-3xl font-semibold lowercase text-gray-800"><span  class="text-pink-500"><i class="fa-solid fa-download me-4"></i></span>No Download</li>
+                    <li class="text-3xl font-semibold lowercase text-gray-800"><span  class="text-gray-900"><i class="fa-solid fa-users me-4"></i></span>1000s of supported online games</li>
+                </ul>
+                <div class="mt-8 flex gap-8">
+                    <button class="px-8 py-5 rounded-lg text-3xl font-bold text-white bg-pink-400">Sign In</button>
+                    <button class="px-8 py-5 rounded-lg text-3xl font-bold text-white bg-orange-500">Go Rogue</button>
+                </div>
+                </div>
+            </div>
+            <div class="w-[50%] h-[90vh]">
+                <img class="w-[100%] h-[100%]" src="images/Group 18.png" alt="">
+            </div>
+        </section>
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer></footer>
+    <!-- footer end -->
+  </body>
+</html>
